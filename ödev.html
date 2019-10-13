@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>ONUR ALTINTAŞ 2019280069</title>
+    <meta charset="UTF-8">
+    </head>
+    <body>
+        <script>
+            function topla(){
+                var sayi1 = parseInt(document.getElementById("id1").value);
+                var sayi2 = parseInt(document.getElementById("id2").value);
+                var toplam = sayi1 + sayi2 ;
+                alert(toplam);
+            }
+            function birlestir(){
+                var kelime1 = document.getElementById("id3").value;
+                var kelime2 = document.getElementById("id4").value;
+                var cümle = kelime1 + " " + kelime2;
+                alert(cümle);
+            }
+        </script>
+        <h2>ONUR ALTINTAŞ 2019280069</h2>
+        <label for="id1">Metin Kutusu 1</label>
+        <input type='text' onkeypress='return event.charCode>= 48 &&event.charCode<= 57' id='id1' />
+        <br>
+        <label for="id2">Metin Kutusu 2</label>
+        <input type='text' onkeypress='return event.charCode>= 48 &&event.charCode<= 57' id='id2' />
+        <br><br>
+        <button type="button" onclick="topla()">Topla</button>
+        <br><br>
+        <label for="id3">Metin kutusu 3</label>
+        <input type='text' id='id3' />
+        <br>
+        <label for="id4">Metin kutusu 4</label>
+        <input type='text' id='id4' />
+        <br><br>
+        <button type="button" onclick="birlestir()">Yapıştır</button>
+        
+    </body>
+    <!--Alıntı Yapılan siteler
+        1."https://stackoverflow.com/questions/469357/html-text-input-allow-only-numeric-input"
+        2."http://www.oguzhantas.com/javascript/297-javascript-ile-basit-hesaplama-islemleri.html"
+        3."https://www.youtube.com/watch?v=uduwR8Wif8I"
+        4."https://www.cambiaresearch.com/articles/39/how-can-i-use-javascript-to-allow-only-numbers-to-be-entered-in-a-textbox"
+        5."https://www.youtube.com/watch?v=NhsZZwbh9vc&list=PLg3aEwS_Fk5Lpidc4cwL7wk58A-2EirvD&index=2&t=0s"
+        6."https://www.youtube.com/watch?v=8u2yMUraUws"
+    -->
+ 
+</html>
